@@ -117,7 +117,7 @@ footer{margin-top:48px;border-top:1px solid var(--rule);padding-top:16px;font:40
 <div class="stats">
 <div><b>7.7</b><span>miles of public right of way per square mile in Rossendale, the most of any council</span></div>
 <div><b>2.4</b><span>miles per square mile across England and Wales: 139,409 miles in all</span></div>
-<div><b class="r">4th</b><span>Ribble Valley, per mile of road; 64th per square mile</span></div>
+<div><b class="r">249 ft</b><span>of path for every person in Powys, the most per resident; it is only 72nd per square mile</span></div>
 <div><b>57%</b><span>of the council length is in OpenStreetMap, up from about 20% in 2016</span></div>
 </div>
 
@@ -136,7 +136,7 @@ footer{margin-top:48px;border-top:1px solid var(--rule);padding-top:16px;font:40
 <div id="map" role="region" aria-label="Map of council areas coloured by public rights of way"></div>
 <div class="side">
 <div class="panel">
-<div class="find"><input id="q" type="search" placeholder="Council or postcode, e.g. Clitheroe BB7" aria-label="Find a council by name or postcode" list="names"><button id="go" type="button">Find</button></div>
+<div class="find"><input id="q" type="search" placeholder="Council or postcode, e.g. Hebden Bridge HX7" aria-label="Find a council by name or postcode" list="names"><button id="go" type="button">Find</button></div>
 <datalist id="names"></datalist>
 <div class="msg" id="qmsg"></div>
 </div>
@@ -162,7 +162,8 @@ footer{margin-top:48px;border-top:1px solid var(--rule);padding-top:16px;font:40
 <h2><span class="n">03 · Why the mill towns?</span>The South Pennine belt</h2>
 <p>Nine of the top ten per square mile sit in one block of hill country either side of the Lancashire and Yorkshire border: Rossendale, Calderdale, Pendle, Rochdale, Blackburn with Darwen, Oldham, Hyndburn, Burnley and Bury. Rossendale has 407 miles of path in 53 square miles. Only Malvern Hills, sixth, breaks the run.</p>
 <p>These were places where people lived and worked spread across the hillsides long before the mills, in farms and weaving hamlets joined by packhorse tracks and field paths. The towns grew in the valleys, but the network on the slopes above them stayed on the definitive maps drawn up in the 1950s. Small fields and a crowded landscape mean a lot of paths in a small space. That is a likely reason, not something this data can prove.</p>
-<p>Ribble Valley, next door, is bigger and emptier: 755 miles of right of way over 225 square miles of fell and farmland. That puts it 64th per square mile, but with few roads and few people its paths go a long way. It has 2,869 yards of path for every mile of road, fourth in England and Wales, and 60 feet of path per resident, tenth.</p>
+<p>Change the yardstick and the map turns over. Powys, the biggest council area in England and Wales, is only 72nd per square mile, but with so few roads and people it has 3,388 yards of right of way for every mile of road and 249 feet of path for every resident, first on both counts. Ceredigion and Gwynedd follow it per resident. Wales as a whole has 2.8 miles per square mile against England's 2.3.</p>
+<p>At the other end are the big towns and outer London. Harrow has 0.06 miles of right of way per square mile, the fewest of any council with a definitive map, behind Enfield, Norwich, Havering and Barnet. Most of their old field paths were built over or became ordinary streets long before the definitive maps were drawn, which is the likely reason rather than something the data shows.</p>
 <div class="chart" id="top20"></div>
 
 <h2><span class="n">04 · The rest of the UK</span>Scotland and Northern Ireland</h2>
@@ -189,7 +190,7 @@ const $ = s => document.querySelector(s), esc = t => String(t).replace(/[&<>"]/g
 const fmt = (v, d = 0) => v == null || !isFinite(v) ? "–" : v.toLocaleString("en-GB", {minimumFractionDigits: d, maximumFractionDigits: d});
 const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
 $("#theme").onclick = () => { document.documentElement.dataset.theme = isDark() ? "light" : "dark"; base.setUrl(baseURL()); lbl.setUrl(lblURL()); restyle(); };
-const ME = "E07000124";
+const ME = "E07000125";
 const PAL = ["#EEF1DE", "#CFE0B4", "#A3C98A", "#6FA866", "#3F8150", "#215C3B", "#0F3A27"];
 const M = {
   sqmi: {t: "Miles of right of way per square mile", f: r => (st.t === "fp" ? r.fp : r.prow) / r.area, d: 1, u: "miles per sq mile"},
@@ -249,7 +250,7 @@ function info() {
       <div class="rk"><div><b>${ranks[0] ?? "–"}</b>per square mile</div><div><b>${ranks[1] ?? "–"}</b>per mile of road</div><div><b>${ranks[2] ?? "–"}</b>per resident</div></div>
       <p class="small">${fmt(r.prow, 0)} miles of public right of way: ${fmt(r.fp, 0)} of footpath and ${fmt(r.prow - r.fp, 0)} of bridleway and byway. Ranks are out of ${D.filter(x => x.nat === "E" || x.nat === "W").length} councils in England and Wales (the red tick marks the average council).${r.source === "osm" ? " This council publishes no open rights of way data, so the figures are from OpenStreetMap and are a floor." : ""}</p>`;
   }
-  h += `<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="pbtn" id="show" type="button">${pathLayer ? "Hide the paths" : "Show the paths"}</button>${st.sel !== ME ? `<button class="pbtn ghost" id="rv" type="button">Back to Ribble Valley</button>` : ""}</div><div class="msg" id="pmsg"></div>`;
+  h += `<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px"><button class="pbtn" id="show" type="button">${pathLayer ? "Hide the paths" : "Show the paths"}</button>${st.sel !== ME ? `<button class="pbtn ghost" id="rv" type="button">Back to Rossendale</button>` : ""}</div><div class="msg" id="pmsg"></div>`;
   $("#info").innerHTML = h;
   $("#show").onclick = () => pathLayer ? hidePaths() : showPaths(r);
   if ($("#rv")) $("#rv").onclick = () => select(ME, true);
@@ -325,7 +326,7 @@ function top20() {
   const t = rows.slice(0, 20), me = byCode[ME], avg = D.filter(r => r.nat === "E" || r.nat === "W").reduce((a, r) => [a[0] + r.prow, a[1] + r.area], [0, 0]);
   const list = t.concat(t.includes(me) ? [] : [me]), W = 760, rh = 24, H = list.length * rh + 46, x0 = 190, max = t[0].prow / t[0].area;
   const sx = v => x0 + (W - x0 - 60) * v / max, a = avg[0] / avg[1];
-  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="The twenty council areas with the most rights of way per square mile, and Ribble Valley"><text x="0" y="14" font-family="IBM Plex Mono" font-size="12" fill="currentColor" opacity=".7">MILES PER SQUARE MILE</text>`;
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="The twenty council areas with the most rights of way per square mile"><text x="0" y="14" font-family="IBM Plex Mono" font-size="12" fill="currentColor" opacity=".7">MILES PER SQUARE MILE</text>`;
   list.forEach((r, i) => { const v = r.prow / r.area, y = 30 + i * rh + (r === me && !t.includes(me) ? 8 : 0), c = r === me ? "#B5532A" : "#3F8150";
     s += `<text x="${x0 - 8}" y="${y + 15}" text-anchor="end" font-family="Source Serif 4" font-size="14" fill="currentColor">${esc(r.name)}${r === me && !t.includes(me) ? ` (${rankOf(me, "sqmi")}th)` : ""}</text><rect x="${x0}" y="${y + 3}" width="${sx(v) - x0}" height="${rh - 8}" fill="${c}"/><text x="${sx(v) + 6}" y="${y + 15}" font-family="IBM Plex Mono" font-size="12" fill="currentColor">${v.toFixed(1)}</text>`; });
   s += `<line x1="${sx(a)}" x2="${sx(a)}" y1="24" y2="${H - 6}" stroke="currentColor" stroke-dasharray="3 3" opacity=".6"/><text x="${sx(a) + 4}" y="14" font-family="IBM Plex Mono" font-size="11" fill="currentColor" opacity=".8">England and Wales average ${a.toFixed(1)}</text></svg>`;
@@ -356,5 +357,6 @@ Promise.all([fetch("data/lad.json").then(r => r.json()), fetch("data/lad.geojson
   restyle(); top20(); osmChart(S);
 }).catch(e => { $("#info").textContent = "Could not load the data: " + e; });
 </script>
+<script src="https://tristan-hotham.github.io/assets/site-nav.js" defer></script>
 </body>
 </html>

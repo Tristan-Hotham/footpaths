@@ -10,8 +10,8 @@ Which part of Britain has the most public footpaths, bridleways and byways for e
 
 - England and Wales have 139,409 miles of public rights of way in the councils' open data, 2.4 miles for every square mile of land (England 2.3, Wales 2.8). 77% of the length is footpath.
 - **Rossendale** has the most per square mile: 7.7 miles of right of way per square mile (407 miles in 53 square miles). Nine of the top ten are in the South Pennines either side of the Lancashire and Yorkshire border: Rossendale, Calderdale (6.2), Pendle (5.9), Rochdale (5.5), Blackburn with Darwen (5.4), Oldham (5.2), Hyndburn (5.2), Burnley (5.1) and Bury (5.1). Malvern Hills (5.3) is the exception.
-- Per mile of road, **Powys** leads with 3,388 yards of right of way per mile of road, then Malvern Hills, Rossendale and **Ribble Valley** (2,869). Per resident, Powys leads by far (249 feet per person), then Ceredigion and Gwynedd.
-- Ribble Valley has 755 miles of right of way in 225 square miles: 3.4 per square mile, 64th of 318 councils, but 4th per mile of road and 10th per resident.
+- Per mile of road, **Powys** leads with 3,388 yards of right of way per mile of road, then Malvern Hills and Rossendale. Per resident, Powys leads by far (249 feet per person), then Ceredigion and Gwynedd. Per square mile Powys is only 72nd.
+- The fewest per square mile, outside inner London: Harrow (0.06), Enfield (0.11), Norwich, Havering and Barnet (about 0.16 to 0.18).
 - The fourteen inner London boroughs never had to keep a definitive map and have no rights of way to count. Scotland has no comparable system (a right of responsible access to most land since 2003) and Northern Ireland very few recorded rights of way, so they are not ranked.
 - OpenStreetMap holds 57% of the council length. Its mapped rights of way grew from 28,275 miles in 2016 to 79,896 in 2026.
 
