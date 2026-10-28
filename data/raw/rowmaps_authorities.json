@@ -1,0 +1,751 @@
+{
+ "authorities": [
+  [
+   "BD",
+   "Barking and Dagenham"
+  ],
+  [
+   "DR",
+   "Doncaster"
+  ],
+  [
+   "MM",
+   "Monmouthshire"
+  ],
+  [
+   "SN",
+   "St Helens"
+  ],
+  [
+   "BL",
+   "Barnsley"
+  ],
+  [
+   "DT",
+   "Dorset"
+  ],
+  [
+   "NP",
+   "Neath Port Talbot"
+  ],
+  [
+   "SF",
+   "Staffordshire"
+  ],
+  [
+   "BS",
+   "Bath and North East Somerset"
+  ],
+  [
+   "DZ",
+   "Dudley"
+  ],
+  [
+   "NW",
+   "Newcastle upon Tyne"
+  ],
+  [
+   "YY",
+   "Stockport"
+  ],
+  [
+   "BF",
+   "Bedford"
+  ],
+  [
+   "DU",
+   "Durham"
+  ],
+  [
+   "NE",
+   "Newport"
+  ],
+  [
+   "SM",
+   "Stockton on Tees"
+  ],
+  [
+   "BX",
+   "Bexley"
+  ],
+  [
+   "EG",
+   "Ealing"
+  ],
+  [
+   "NK",
+   "Norfolk"
+  ],
+  [
+   "SK",
+   "Suffolk"
+  ],
+  [
+   "BI",
+   "Birmingham"
+  ],
+  [
+   "EY",
+   "East Riding of Yorkshire"
+  ],
+  [
+   "NC",
+   "North East Lincolnshire"
+  ],
+  [
+   "SV",
+   "Sunderland"
+  ],
+  [
+   "BB",
+   "Blackburn with Darwen"
+  ],
+  [
+   "ES",
+   "East Sussex"
+  ],
+  [
+   "NI",
+   "North Lincolnshire"
+  ],
+  [
+   "SU",
+   "Surrey"
+  ],
+  [
+   "BP",
+   "Blackpool"
+  ],
+  [
+   "EX",
+   "Essex"
+  ],
+  [
+   "N2",
+   "North Northamptonshire"
+  ],
+  [
+   "SZ",
+   "Sutton"
+  ],
+  [
+   "BG",
+   "Blaenau Gwent"
+  ],
+  [
+   "FL",
+   "Flintshire"
+  ],
+  [
+   "NS",
+   "North Somerset"
+  ],
+  [
+   "SS",
+   "Swansea"
+  ],
+  [
+   "BO",
+   "Bolton"
+  ],
+  [
+   "GH",
+   "Gateshead"
+  ],
+  [
+   "NY",
+   "North Yorkshire"
+  ],
+  [
+   "SD",
+   "Swindon"
+  ],
+  [
+   "B2",
+   "Bournemouth, Christchurch and Poole"
+  ],
+  [
+   "GR",
+   "Gloucestershire"
+  ],
+  [
+   "ND",
+   "Northumberland"
+  ],
+  [
+   "TS",
+   "Tameside"
+  ],
+  [
+   "BC",
+   "Bracknell Forest"
+  ],
+  [
+   "GY",
+   "Gwynedd"
+  ],
+  [
+   "NG",
+   "City of Nottingham"
+  ],
+  [
+   "WP",
+   "Telford and Wrekin"
+  ],
+  [
+   "BA",
+   "Bradford"
+  ],
+  [
+   "HA",
+   "Halton"
+  ],
+  [
+   "NT",
+   "Nottinghamshire"
+  ],
+  [
+   "TU",
+   "Thurrock"
+  ],
+  [
+   "B1",
+   "Brecon Beacons National Park"
+  ],
+  [
+   "HP",
+   "Hampshire"
+  ],
+  [
+   "OH",
+   "Oldham"
+  ],
+  [
+   "TB",
+   "Torbay"
+  ],
+  [
+   "BE",
+   "Bridgend"
+  ],
+  [
+   "HG",
+   "Haringey"
+  ],
+  [
+   "ON",
+   "Oxfordshire"
+  ],
+  [
+   "TF",
+   "Torfaen"
+  ],
+  [
+   "BH",
+   "City of Brighton and Hove"
+  ],
+  [
+   "HE",
+   "Herefordshire"
+  ],
+  [
+   "PB",
+   "Pembrokeshire"
+  ],
+  [
+   "TR",
+   "Trafford"
+  ],
+  [
+   "BZ",
+   "City of Bristol"
+  ],
+  [
+   "HD",
+   "Hertfordshire"
+  ],
+  [
+   "PE",
+   "City of Peterborough"
+  ],
+  [
+   "VG",
+   "Vale of Glamorgan"
+  ],
+  [
+   "BR",
+   "Bromley"
+  ],
+  [
+   "HI",
+   "Hillingdon"
+  ],
+  [
+   "PY",
+   "City of Plymouth"
+  ],
+  [
+   "WE",
+   "Wakefield"
+  ],
+  [
+   "BM",
+   "Buckinghamshire"
+  ],
+  [
+   "HS",
+   "Hounslow"
+  ],
+  [
+   "PO",
+   "City of Portsmouth"
+  ],
+  [
+   "WA",
+   "Walsall"
+  ],
+  [
+   "BY",
+   "Bury"
+  ],
+  [
+   "KH",
+   "City of Kingston upon Hull"
+  ],
+  [
+   "PW",
+   "Powys"
+  ],
+  [
+   "WF",
+   "Waltham Forest"
+  ],
+  [
+   "CF",
+   "Caerphilly"
+  ],
+  [
+   "IA",
+   "Isle of Anglesey"
+  ],
+  [
+   "RG",
+   "Reading"
+  ],
+  [
+   "WG",
+   "Warrington"
+  ],
+  [
+   "CA",
+   "Calderdale"
+  ],
+  [
+   "IW",
+   "Isle of Wight"
+  ],
+  [
+   "RB",
+   "Redbridge"
+  ],
+  [
+   "WK",
+   "Warwickshire"
+  ],
+  [
+   "CB",
+   "Cambridgeshire"
+  ],
+  [
+   "KT",
+   "Kent"
+  ],
+  [
+   "RC",
+   "Redcar and Cleveland"
+  ],
+  [
+   "WB",
+   "West Berkshire"
+  ],
+  [
+   "CD",
+   "Cardiff"
+  ],
+  [
+   "KG",
+   "Kingston upon Thames"
+  ],
+  [
+   "RH",
+   "Rhondda Cynon Taff"
+  ],
+  [
+   "N3",
+   "West Northamptonshire"
+  ],
+  [
+   "CT",
+   "Carmarthenshire"
+  ],
+  [
+   "KL",
+   "Kirklees"
+  ],
+  [
+   "RD",
+   "Rochdale"
+  ],
+  [
+   "WS",
+   "West Sussex"
+  ],
+  [
+   "BK",
+   "Central Bedfordshire"
+  ],
+  [
+   "KN",
+   "Knowsley"
+  ],
+  [
+   "RO",
+   "Rotherham"
+  ],
+  [
+   "W1",
+   "Westmorland and Furness"
+  ],
+  [
+   "CE",
+   "Ceredigion"
+  ],
+  [
+   "L1",
+   "Lake District National Park"
+  ],
+  [
+   "RL",
+   "Rutland"
+  ],
+  [
+   "WN",
+   "Wigan"
+  ],
+  [
+   "CH",
+   "Cheshire East"
+  ],
+  [
+   "LA",
+   "Lancashire"
+  ],
+  [
+   "SC",
+   "Salford"
+  ],
+  [
+   "WT",
+   "Wiltshire"
+  ],
+  [
+   "CC",
+   "Cheshire West and Chester"
+  ],
+  [
+   "LD",
+   "Leeds"
+  ],
+  [
+   "SA",
+   "Sandwell"
+  ],
+  [
+   "WC",
+   "Windsor and Maidenhead"
+  ],
+  [
+   "CW",
+   "Conwy"
+  ],
+  [
+   "LC",
+   "City of Leicester"
+  ],
+  [
+   "SE",
+   "Sefton"
+  ],
+  [
+   "WR",
+   "Wirral"
+  ],
+  [
+   "CN",
+   "Cornwall"
+  ],
+  [
+   "LT",
+   "Leicestershire"
+  ],
+  [
+   "SP",
+   "Sheffield"
+  ],
+  [
+   "WJ",
+   "Wokingham"
+  ],
+  [
+   "CV",
+   "Coventry"
+  ],
+  [
+   "LL",
+   "Lincolnshire"
+  ],
+  [
+   "SH",
+   "Shropshire"
+  ],
+  [
+   "WH",
+   "City of Wolverhampton"
+  ],
+  [
+   "CU",
+   "Cumbria"
+  ],
+  [
+   "LP",
+   "Liverpool"
+  ],
+  [
+   "YT",
+   "Slough"
+  ],
+  [
+   "WO",
+   "Worcestershire"
+  ],
+  [
+   "DL",
+   "Darlington"
+  ],
+  [
+   "MA",
+   "Manchester"
+  ],
+  [
+   "SQ",
+   "Solihull"
+  ],
+  [
+   "WX",
+   "Wrexham"
+  ],
+  [
+   "DE",
+   "Denbighshire"
+  ],
+  [
+   "ME",
+   "Medway"
+  ],
+  [
+   "ST",
+   "Somerset"
+  ],
+  [
+   "YK",
+   "York"
+  ],
+  [
+   "DB",
+   "City of Derby"
+  ],
+  [
+   "MT",
+   "Merthyr Tydfil"
+  ],
+  [
+   "SG",
+   "South Gloucestershire"
+  ],
+  [
+   "DY",
+   "Derbyshire"
+  ],
+  [
+   "MB",
+   "Middlesbrough"
+  ],
+  [
+   "SY",
+   "South Tyneside"
+  ],
+  [
+   "DN",
+   "Devon"
+  ],
+  [
+   "MK",
+   "Milton Keynes"
+  ],
+  [
+   "SO",
+   "City of Southampton"
+  ]
+ ],
+ "licence_first_line": {
+  "BD": "The data in this CSV file has been obtained under licence from the council of Barking and Dagenham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for d",
+  "DR": "The data in this CSV file has been obtained under licence from the council of Doncaster. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "MM": "The data in this CSV file has been obtained under licence from the council of Monmouthshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "SN": "The data in this CSV file has been obtained under licence from the council of St Helens. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "BL": "The data in this CSV file has been obtained under licence from the council of Barnsley. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "DT": "The data in this CSV file has been obtained under licence from the council of Dorset. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "NP": "The data in this CSV file has been obtained under licence from the council of Neath Port Talbot. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for dete",
+  "SF": "The data in this CSV file has been obtained under licence from the council of Staffordshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "BS": "The data in this CSV file has been obtained under licence from the council of Bath and North East Somerset. The Council points out these records have not been fully checked for accuracy and do not constitute the legal record of public rights of way. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Coun",
+  "DZ": "The data in this CSV file has been obtained under licence from the council of Dudley. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "NW": "The data in this CSV file has been obtained under licence from the council of Newcastle upon Tyne. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for de",
+  "YY": "The data in this CSV file has been obtained under licence from the council of Stockport. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "BF": "The data in this CSV file has been obtained under licence from the council of Bedford. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "DU": "The data in this CSV file has been obtained under licence from the council of Durham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "NE": "The data in this CSV file has been obtained under licence from the council of Newport. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "SM": "The data in this CSV file has been obtained under licence from the council of Stockton on Tees. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for deter",
+  "BX": "The data in this CSV file has been obtained under licence from the council of Bexley. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "EG": "The data in this CSV file has been obtained under licence from the council of Ealing. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "NK": "The data in this CSV file has been obtained under licence from the council of Norfolk. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "SK": "The data in this CSV file has been obtained under licence from the council of Suffolk. This data contains public sector information from Suffolk County Council. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not",
+  "BI": "The data in this CSV file has been obtained under licence from the council of Birmingham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "NC": "The data in this CSV file has been obtained under licence from the council of North East Lincolnshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on fo",
+  "EY": "The data in this CSV file has been obtained under licence from the council of East Riding of Yorkshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on f",
+  "SV": "The data in this CSV file has been obtained under licence from the council of Sunderland. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "BB": "The data in this CSV file has been obtained under licence from the council of Blackburn with Darwen. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for ",
+  "NI": "The data in this CSV file has been obtained under licence from the council of North Lincolnshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for det",
+  "ES": "The data in this CSV file has been obtained under licence from the council of East Sussex. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determinin",
+  "BP": "The data in this CSV file has been obtained under licence from the council of Blackpool. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "SU": "The data in this CSV file has been obtained under licence from the council of Surrey. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "N2": "The data in this CSV file has been obtained under licence from the council of North Northamptonshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for",
+  "EX": "The data in this CSV file has been obtained under licence from the council of Essex. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the ",
+  "SZ": "The data in this CSV file has been obtained under licence from the council of Sutton. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "BG": "The data in this CSV file has been obtained under licence from the council of Blaenau Gwent. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "FL": "The data in this CSV file has been obtained under licence from the council of Flintshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "NS": "The data in this CSV file has been obtained under licence from the council of North Somerset. North Somerset Council's Definitive Map is the authoritative source of the Council's public rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself which carries ",
+  "SS": "The data in this CSV file has been obtained under licence from the council of Swansea. The shape file provided by the City and County of Swansea, upon which this data is based, was not a final signed off version. As such, the City and County of Swansea accept no liability in respect of any future use of this data. The Council's Definitive Map is the authoritative source of their rights of way. The",
+  "BO": "The data in this CSV file has been obtained under licence from the council of Bolton. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "GH": "The data in this CSV file has been obtained under licence from the council of Gateshead. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "NY": "The data in this CSV file has been obtained under licence from the council of North Yorkshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determ",
+  "SD": "The data in this CSV file has been obtained under licence from the council of Swindon. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "B2": "The data in this CSV file has been obtained under licence from the council of Bournemouth, Christchurch and Poole. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be ",
+  "GR": "The data in this CSV file has been obtained under licence from the council of Gloucestershire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determ",
+  "ND": "The data in this CSV file has been obtained under licence from the council of Northumberland. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "TS": "The data in this CSV file has been obtained under licence from the council of Tameside. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "BC": "The data in this CSV file has been obtained under licence from the council of Bracknell Forest. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for deter",
+  "GY": "The data in this CSV file has been obtained under licence from the council of Gwynedd. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "NG": "The data in this CSV file has been obtained under licence from the council of City of Nottingham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for det",
+  "WP": "The data in this CSV file has been obtained under licence from the council of Telford and Wrekin. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for det",
+  "BA": "The data in this CSV file has been obtained under licence from the council of Bradford. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "HA": "The data in this CSV file has been obtained under licence from the council of Halton. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "NT": "The data in this CSV file has been obtained under licence from the council of Nottinghamshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determ",
+  "TU": "The data in this CSV file has been obtained under licence from the council of Thurrock. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "B1": "The data in this CSV file has been obtained under licence from the Brecon Beacons National Park Authority. The Authority's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Authority's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be reli",
+  "HP": "The data in this CSV file has been obtained under licence from the council of Hampshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "OH": "The data in this CSV file has been obtained under licence from the council of Oldham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "TB": "The data in this CSV file has been obtained under licence from the council of Torbay. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "BE": "The data in this CSV file has been obtained under licence from the council of Bridgend. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "HG": "The data in this CSV file has been obtained under licence from the council of Haringey. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "ON": "The data in this CSV file has been obtained under licence from the council of Oxfordshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determinin",
+  "TF": "The data in this CSV file has been obtained under licence from the council of Torfaen. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "BH": "The data in this CSV file has been obtained under licence from the council of City of Brighton and Hove. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on ",
+  "HE": "The data in this CSV file has been obtained under licence from the council of Herefordshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "PB": "The data in this CSV file has been obtained under licence from the council of Pembrokeshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "TR": "The data in this CSV file has been obtained under licence from the council of Trafford. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "BZ": "The data in this CSV file has been obtained under licence from the council of City of Bristol. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determ",
+  "HD": "The data in this CSV file has been obtained under licence from the council of Hertfordshire. This data contains public sector information from Hertfordshire County Council. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definit",
+  "PE": "The data in this CSV file has been obtained under licence from the council of City of Peterborough. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for d",
+  "VG": "The data in this CSV file has been obtained under licence from the council of Vale of Glamorgan. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for dete",
+  "BR": "The data in this CSV file has been obtained under licence from the council of Bromley. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "HI": "The data in this CSV file has been obtained under licence from the council of Hillingdon. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "PY": "The data in this CSV file has been obtained under licence from the council of City of Plymouth. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for deter",
+  "WE": "The data in this CSV file has been obtained under licence from the council of Wakefield. This data contains Wakefield Metropolitan District Council Rights of Way information including name, type and coordinates 2013. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information on",
+  "BM": "The data in this CSV file has been obtained under licence from the council of Buckinghamshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determ",
+  "HS": "The data in this CSV file has been obtained under licence from the council of Hounslow. This data is © Crown copyright. All rights reserved. London Borough of Hounslow AC0000819534 2025. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation ",
+  "PO": "The data in this CSV file has been obtained under licence from the council of City of Portsmouth. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for det",
+  "WA": "The data in this CSV file has been obtained under licence from the council of Walsall. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "KH": "The data in this CSV file has been obtained under licence from the council of City of Kingston upon Hull. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on",
+  "BY": "The data in this CSV file has been obtained under licence from the council of Bury. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the p",
+  "WF": "The data in this CSV file has been obtained under licence from the council of Waltham Forest. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "PW": "The data in this CSV file has been obtained under licence from the council of Powys. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the ",
+  "CF": "The data in this CSV file has been obtained under licence from the council of Caerphilly. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "IA": "The data in this CSV file has been obtained under licence from the council of Isle of Anglesey. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for deter",
+  "RG": "The data in this CSV file has been obtained under licence from the council of Reading. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "WG": "The data in this CSV file has been obtained under licence from the council of Warrington. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "CA": "The data in this CSV file has been obtained under licence from the council of Calderdale. The Council points out that http://map.calderdale.gov.uk/connect/?mapcfg=Transport_Network includes any changes made since this data was released. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data ar",
+  "IW": "The data in this CSV file has been obtained under licence from the council of Isle of Wight. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "RB": "The data in this CSV file has been obtained under licence from the council of Redbridge. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "WK": "The data in this CSV file has been obtained under licence from the council of Warwickshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determini",
+  "CB": "The data in this CSV file has been obtained under licence from the council of Cambridgeshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "KT": "The data in this CSV file has been obtained under licence from the council of Kent. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the p",
+  "RC": "The data in this CSV file has been obtained under licence from the council of Redcar and Cleveland. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for d",
+  "WB": "The data in this CSV file has been obtained under licence from the council of West Berkshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "CD": "The data in this CSV file has been obtained under licence from the council of Cardiff. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "KG": "The data in this CSV file has been obtained under licence from the council of Kingston upon Thames. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for d",
+  "RH": "The data in this CSV file has been obtained under licence from the council of Rhondda Cynon Taff. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for det",
+  "N3": "The data in this CSV file has been obtained under licence from the council of West Northamptonshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for ",
+  "CT": "The data in this CSV file has been obtained under licence from the council of Carmarthenshire. This data contains public sector information from Carmarthenshire County Council. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Def",
+  "KL": "The data in this CSV file has been obtained under licence from the council of Kirklees. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "RD": "The data in this CSV file has been obtained under licence from the council of Rochdale. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "WS": "The data in this CSV file has been obtained under licence from the council of West Sussex. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determinin",
+  "BK": "The data in this CSV file has been obtained under licence from the council of Central Bedfordshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for d",
+  "KN": "The data in this CSV file has been obtained under licence from the council of Knowsley. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "RO": "The data in this CSV file has been obtained under licence from the council of Rotherham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "W1": "The data in this CSV file has been obtained under licence from the council of Westmorland and Furness. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on fo",
+  "CE": "The data in this CSV file has been obtained under licence from the council of Ceredigion. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "L1": "The data in this CSV file has been obtained under licence from the Lake District National Park Authority. The Authority's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Authority's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relie",
+  "RL": "The data in this CSV file has been obtained under licence from the council of Rutland. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "WN": "The data in this CSV file has been obtained under licence from the council of Wigan. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the ",
+  "CH": "The data in this CSV file has been obtained under licence from the council of Cheshire East. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "LA": "The data in this CSV file has been obtained under licence from the council of Lancashire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "SC": "The data in this CSV file has been obtained under licence from the council of Salford. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "CC": "The data in this CSV file has been obtained under licence from the council of Cheshire West and Chester. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on ",
+  "WT": "The data in this CSV file has been obtained under licence from the council of Wiltshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "LD": "The data in this CSV file has been obtained under licence from the council of Leeds. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the ",
+  "SA": "The data in this CSV file has been obtained under licence from the council of Sandwell. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "WC": "The data in this CSV file has been obtained under licence from the council of Windsor and Maidenhead. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for",
+  "CW": "The data in this CSV file has been obtained under licence from the council of Conwy. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the ",
+  "LC": "The data in this CSV file has been obtained under licence from the council of City of Leicester. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for dete",
+  "SE": "The data in this CSV file has been obtained under licence from the council of Sefton. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "WR": "The data in this CSV file has been obtained under licence from the council of Wirral. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "CN": "The data in this CSV file has been obtained under licence from the council of Cornwall. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "SP": "The data in this CSV file has been obtained under licence from the council of Sheffield. This data contains public sector information from Sheffield City Council. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, n",
+  "WJ": "The data in this CSV file has been obtained under licence from the council of Wokingham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "CV": "The data in this CSV file has been obtained under licence from the council of Coventry. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "LL": "The data in this CSV file has been obtained under licence from the council of Lincolnshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determini",
+  "LT": "The data in this CSV file has been obtained under licence from the council of Leicestershire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "WH": "The data in this CSV file has been obtained under licence from the council of City of Wolverhampton. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for ",
+  "SH": "The data in this CSV file has been obtained under licence from the council of Shropshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "LP": "The data in this CSV file has been obtained under licence from the council of Liverpool. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining ",
+  "CU": "The data in this CSV file has been obtained under licence from the council of Cumbria. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "YT": "The data in this CSV file has been obtained under licence from the council of Slough. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "WO": "The data in this CSV file has been obtained under licence from the council of Worcestershire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "DL": "The data in this CSV file has been obtained under licence from the council of Darlington. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "MA": "The data in this CSV file has been obtained under licence from the council of Manchester. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "SQ": "The data in this CSV file has been obtained under licence from the council of Solihull. This data contains information that is © Solihull Metropolitan Borough Council. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive M",
+  "WX": "The data in this CSV file has been obtained under licence from the council of Wrexham. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining th",
+  "DE": "The data in this CSV file has been obtained under licence from the council of Denbighshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determini",
+  "ME": "The data in this CSV file has been obtained under licence from the council of Medway. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the",
+  "ST": "The data in this CSV file has been obtained under licence from the council of Somerset. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining t",
+  "YK": "The data in this CSV file has been obtained under licence from the council of York. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the p",
+  "DB": "The data in this CSV file has been obtained under licence from the council of City of Derby. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "MT": "The data in this CSV file has been obtained under licence from the council of Merthyr Tydfil. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "SG": "The data in this CSV file has been obtained under licence from the council of South Gloucestershire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for ",
+  "DY": "The data in this CSV file has been obtained under licence from the council of Derbyshire. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining",
+  "MB": "The data in this CSV file has been obtained under licence from the council of Middlesbrough. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "SY": "The data in this CSV file has been obtained under licence from the council of South Tyneside. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determi",
+  "DN": "The data in this CSV file has been obtained under licence from the council of Devon. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the ",
+  "MK": "The data in this CSV file has been obtained under licence from the council of Milton Keynes. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determin",
+  "SO": "The data in this CSV file has been obtained under licence from the council of City of Southampton. The Council's Definitive Map is the authoritative source of their rights of way. The details of the public rights of way network contained in the Council's data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for de"
+ }
+}
