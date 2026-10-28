@@ -23,7 +23,7 @@ fig.text(0.045, 0.862, "Miles of public right of way (footpaths, bridleways and 
          family=SER, fontsize=14.5, color=FG, va="top", linespacing=1.15)
 
 ax = fig.add_axes([0.0, 0.25, 0.6, 0.575]); ax.set_facecolor(BGC)
-draw_map(ax, g, lw=0.3, rv_lw=2.4, hatch_lw=0.5)
+draw_map(ax, g, lw=0.3, out_lw=2.4, hatch_lw=0.5)
 ax.set_xlim(130, 660); ax.set_ylim(5, 665)
 
 
@@ -36,9 +36,11 @@ r1 = TOP.iloc[0]
 note(f"{r1['name']}: {fmt1(r1.prow_per_sqmi)}", rep_point(g, r1.code), (470, 470))
 ax.text(470, 452, "and eight neighbours in the\nSouth Pennines: 9 of the\ntop 10 council areas",
         family=MONO, fontsize=10.2, color=FG, va="top", zorder=8, path_effects=halo(3), linespacing=1.3)
-note(f"Ribble Valley: {fmt1(N['rv_val'])}", rep_point(g, RV), (225, 520), ha="center", col=RUST)
+note(f"{N['pw_name']}: most path per\nmile of road and per\nperson", rep_point(g, POWYS), (200, 398), ha="center", col=RUST)
+note(f"{N['low_name']}: {N['low_val']:.2f}, emptiest\noutside inner London", rep_point(g, N["low_code"]), (420, 35),
+     ha="center", col=RUST)
 mal = TOP[TOP.code == "E07000235"].iloc[0]
-note(f"{mal['name']}: {fmt1(mal.prow_per_sqmi)}", rep_point(g, mal.code), (215, 330), ha="center")
+note(f"{mal['name']}: {fmt1(mal.prow_per_sqmi)}", rep_point(g, mal.code), (215, 172), ha="center")
 note("inner London:\nno definitive map", rep_point(g, "E09000033"), (590, 60), ha="center")
 
 # key: a horizontal scale for the greens, then the three special cases
@@ -57,19 +59,21 @@ swatch(yy, NOMAP, NOMAP_HATCH, "/////", 0.8)
 fig.text(0.656, yy, "no definitive map: inner London,\nIsles of Scilly", family=MONO, fontsize=10.5, color=FG, va="center", linespacing=1.15); yy -= 0.028
 swatch(yy, GREY)
 fig.text(0.656, yy, "Scotland, Northern Ireland: not\ncomparable (see footnote)", family=MONO, fontsize=10.5, color=FG,
-         va="center", linespacing=1.15); yy -= 0.026
+         va="center", linespacing=1.15); yy -= 0.03
 swatch(yy, "none", RUST, None, 2.4)
-fig.text(0.656, yy, "Ribble Valley", family=MONO, fontsize=10.5, color=FG, va="center")
+fig.text(0.656, yy, f"{N['pw_name']}: most path per mile of road\nand per person", family=MONO, fontsize=10.5, color=FG,
+         va="center", linespacing=1.15)
 
 items = [
     (fmt1(N["top_val"]), GREENS[5],
-     f"miles of right of way per square mile in\n{N['top_name']}, top of {N['n_councils']} council areas.\n"
-     "The South Pennine mill-town belt leads."),
+     f"miles of path per square mile in {N['top_name']},\ntop of {N['n_councils']} council areas. Nine of the top\n"
+     "ten are South Pennine mill towns."),
     (fmt1(N["avg"]), GREENS[3],
-     f"miles per square mile across England and\nWales: {N['total']:,.0f} miles of path in all."),
-    (ordinal(N["rv_road"]), RUST,
-     f"Ribble Valley per mile of road, and {ordinal(N['rv_head'])} per\nresident, but {ordinal(N['rv_rank'])} per square mile "
-     f"({fmt1(N['rv_val'])}).\n{N['road_top']} is top on both."),
+     f"miles per square mile across England and\nWales: {N['total']:,.0f} miles of path in all.\n"
+     f"Wales has {fmt1(N['wales'])}, England {fmt1(N['england'])}."),
+    (f"{N['pw_ft_head']:.0f} ft", RUST,
+     f"of path per person in {N['pw_name']}, the most, and\nthe most per mile of road too ({N['pw_yd_road']:,.0f}\n"
+     f"yards). Per square mile it is only {ordinal(N['pw_rank'])}."),
     (f"{N['osm_share'] * 100:.0f}%", GREENS[4],
      f"of the councils' path length is mapped in\nOpenStreetMap: {osm[-1]:,.0f} miles in {yrs[-1]}, up\n"
      f"from {osm[0]:,.0f} in {yrs[0]}."),
@@ -78,22 +82,26 @@ assert N["road_top"] == N["head_top"]
 headlines(fig, [0.62, 0.245, 0.37, 0.41], items, big=34, step=0.25, sub_off=0.09)
 
 # bottom: top 10 and OSM by year
-label(fig, 0.045, 0.232, "TOP 10 COUNCIL AREAS, MILES PER SQUARE MILE")
+label(fig, 0.045, 0.232, "MOST AND FEWEST PATHS, MILES PER SQUARE MILE")
 a = fig.add_axes([0.22, 0.094, 0.29, 0.128]); a.set_facecolor(BGC)
-names = list(top10.name) + ["Ribble Valley"]
-vals = list(top10.prow_per_sqmi) + [N["rv_val"]]
-ys = list(range(10)) + [10.8]
-a.barh(ys, vals, color=[GREENS[4]] * 10 + [RUST], height=0.72)
-for y, v, c in zip(ys, vals, [FG] * 10 + [RUST]):
-    a.text(v + 0.12, y, fmt1(v), family=MONO, fontsize=9.6, color=c, va="center")
+low5 = BOTTOM[:5][::-1]
+names = list(top10.name[:5]) + [b["name"] for b in low5]
+vals = list(top10.prow_per_sqmi[:5]) + [b["value"] for b in low5]
+ys = list(range(5)) + [5.8 + i for i in range(5)]
+cl = [FG] * 5 + [RUST] * 5
+a.barh(ys, vals, color=[GREENS[4]] * 5 + [RUST] * 5, height=0.72)
+for y, v, c in zip(ys, vals, cl):
+    a.text(v + 0.12, y, fmt1(v) if v >= 1 else f"{v:.2f}", family=MONO, fontsize=9.6, color=c, va="center")
 a.axvline(N["avg"], color=FG, lw=1, ls=(0, (3, 2)))
-a.text(N["avg"] + 0.1, 11.9, f"average {fmt1(N['avg'])}", family=MONO, fontsize=9.6, color=FG, va="center")
+a.text(N["avg"] + 0.1, 11.0, f"average {fmt1(N['avg'])}", family=MONO, fontsize=9.6, color=FG, va="center")
 a.set_yticks(ys, [n.replace("Blackburn with Darwen", "Blackburn w. Darwen") for n in names])
-a.set_ylim(12.5, -0.6); a.set_xlim(0, 8.8); a.set_xticks([])
+a.set_ylim(11.6, -0.6); a.set_xlim(0, 8.8); a.set_xticks([])
 style_axis(a)
 for t in a.get_yticklabels():
     t.set_color(FG)
-a.get_yticklabels()[-1].set_color(RUST)
+for t in a.get_yticklabels()[5:]:
+    t.set_color(RUST)
+a.text(4.2, 7.8, "the five emptiest\noutside inner London", family=MONO, fontsize=9.6, color=RUST, va="center")
 
 label(fig, 0.57, 0.232, "MILES OF RIGHT OF WAY MAPPED IN OPENSTREETMAP")
 b = fig.add_axes([0.62, 0.104, 0.34, 0.112]); b.set_facecolor(BGC)
@@ -115,5 +123,5 @@ footer(fig, "Data: councils' rights of way open data via rowmaps.com (OGL v3; co
        "of responsible access to most land; Northern Ireland has very few recorded rights of way. Analysis and chart: Tristan Hotham,\n"
        "with Python and matplotlib.", y=0.07)
 fig.savefig(os.path.join(OUT, "footpath_capital_of_britain.png"), dpi=200, facecolor=BGC)
-print("collage", round(N["top_val"], 1), round(N["avg"], 1), round(N["total"]), N["rv_road"], N["rv_head"], N["rv_rank"],
-      round(N["rv_val"], 1), N["osm_share"], osm[0], osm[-1], [(n, round(v, 1)) for n, v in zip(names, vals)])
+print("collage", round(N["top_val"], 1), round(N["avg"], 1), round(N["total"]), round(N["pw_ft_head"]), round(N["pw_yd_road"]),
+      N["pw_rank"], N["wales"], N["england"], N["osm_share"], osm[0], osm[-1], [(n, round(v, 2)) for n, v in zip(names, vals)])
