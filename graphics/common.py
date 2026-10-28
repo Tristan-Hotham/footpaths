@@ -15,29 +15,33 @@ P = lambda *a: os.path.join(ROOT, *a)
 GREENS = ["#E6EBD6", "#C6D8A8", "#97BC80", "#62995B", "#347240", "#164A2B"]   # pale sage to forest
 BINS = [0, 1, 2, 3, 4, 5, np.inf]
 BIN_LABELS = ["under 1", "1 to 2", "2 to 3", "3 to 4", "4 to 5", "5 or more"]
-RUST = "#B5532A"                        # bracken: Ribble Valley
+RUST = "#B5532A"                        # bracken: callouts (Powys, emptiest councils)
 GREY = "#DCD7CC"                        # Scotland and Northern Ireland (no comparable rights of way)
 NOMAP = "#FFFFFF"                       # inner London and Isles of Scilly: no definitive map
 NOMAP_HATCH = "#B9B2A5"
-RV = "E07000124"
+POWYS = "W06000023"
 
 # ---------- data ----------
 D = pd.read_csv(P("results/footpaths_by_council.csv"))
 S = json.load(open(P("results/summary.json")))
 EW = D[D.nation.isin(["England", "Wales"])].copy()
 TOP = EW.sort_values("rank_sqmi")
-R = D[D.code == RV].iloc[0]
+PW = D[D.code == POWYS].iloc[0]
+BOTTOM = S["bottom_sqmi_outside_inner_london"]
 
 N = {
     "top_name": TOP.iloc[0]["name"], "top_val": TOP.iloc[0].prow_per_sqmi,
     "avg": S["ew_prow_per_sqmi"], "total": S["ew_prow_mi"],
     "osm_share": S["ew_osm_share_of_council"], "osm_years": {int(k): v for k, v in S["ew_osm_mi_by_year"].items()},
-    "rv_val": R.prow_per_sqmi, "rv_rank": int(R.rank_sqmi), "rv_road": int(R.rank_road), "rv_head": int(R.rank_head),
-    "rv_yd_road": R.prow_yd_per_road_mi, "rv_ft_head": R.prow_ft_per_head,
+    "pw_name": PW["name"], "pw_yd_road": PW.prow_yd_per_road_mi, "pw_ft_head": PW.prow_ft_per_head,
+    "pw_val": PW.prow_per_sqmi, "pw_rank": int(PW.rank_sqmi),
+    "low_name": BOTTOM[0]["name"], "low_code": BOTTOM[0]["code"], "low_val": BOTTOM[0]["value"],
+    "wales": S["nations"]["Wales"]["prow_per_sqmi"], "england": S["nations"]["England"]["prow_per_sqmi"],
     "road_top": S["top_road"][0]["name"], "head_top": S["top_head"][0]["name"],
     "n_councils": S["ew_councils"], "n_osm": S["ew_osm_source"], "n_council_src": S["ew_council_source"],
     "n_inner": int((EW.source == "inner_london").sum()),
 }
+assert N["road_top"] == N["head_top"] == N["pw_name"]
 assert abs(N["top_val"] - S["top_sqmi"][0]["value"]) < 1e-3
 
 
@@ -59,7 +63,7 @@ def load_geo(simplify=250):
     return g
 
 
-def draw_map(ax, g, lw=0.25, edge="#FFFFFF", rv_lw=1.6, hatch_lw=0.4):
+def draw_map(ax, g, lw=0.25, edge="#FFFFFF", out_lw=1.6, hatch_lw=0.4, outline=(POWYS,)):
     ctx = g[g.nation.isin(["Scotland", "Northern Ireland"])]
     ctx.plot(ax=ax, color=GREY, edgecolor=BGC, linewidth=lw, zorder=1)
     ew = g[g.nation.isin(["England", "Wales"])]
@@ -71,18 +75,19 @@ def draw_map(ax, g, lw=0.25, edge="#FFFFFF", rv_lw=1.6, hatch_lw=0.4):
     import matplotlib as mpl
     with mpl.rc_context({"hatch.linewidth": hatch_lw, "hatch.color": NOMAP_HATCH}):
         ew[nomap].plot(ax=ax, color=NOMAP, edgecolor=NOMAP_HATCH, linewidth=lw, hatch="/////", zorder=2)
-    g[g.code == RV].plot(ax=ax, facecolor="none", edgecolor=RUST, linewidth=rv_lw, zorder=5)
+    if out_lw and len(outline):
+        g[g.code.isin(outline)].plot(ax=ax, facecolor="none", edgecolor=RUST, linewidth=out_lw, zorder=5)
     ax.set_aspect(1); ax.axis("off")
 
 
-def legend_handles(include_nomap=True, include_grey=True, include_rv=True):
+def legend_handles(include_nomap=True, include_grey=True, include_powys=True):
     h = [Patch(facecolor=c, edgecolor="none", label=l) for c, l in zip(GREENS, BIN_LABELS)]
     if include_nomap:
         h.append(Patch(facecolor=NOMAP, edgecolor=NOMAP_HATCH, hatch="/////", label="no definitive map"))
     if include_grey:
         h.append(Patch(facecolor=GREY, edgecolor="none", label="not comparable"))
-    if include_rv:
-        h.append(Patch(facecolor="none", edgecolor=RUST, linewidth=1.6, label="Ribble Valley"))
+    if include_powys:
+        h.append(Patch(facecolor="none", edgecolor=RUST, linewidth=1.6, label="Powys: most per mile\nof road and per person"))
     return h
 
 

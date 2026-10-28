@@ -24,7 +24,7 @@ fig.text(0.27, 0.24, "England and Wales\naverage", family=SER, fontsize=6.8, col
 fig.text(0.05, 0.055, "Dr Tristan Hotham · Independent researcher", family=MONO, fontsize=5.4, color=MUT, va="bottom")
 
 ax = fig.add_axes([0.56, 0.02, 0.43, 0.96]); ax.set_facecolor(BGC)
-draw_map(ax, g, lw=0.12, rv_lw=0, hatch_lw=0.25)
+draw_map(ax, g, lw=0.12, out_lw=0, hatch_lw=0.25)
 ax.set_xlim(150, 660); ax.set_ylim(5, 670)
 x, y = rep_point(g, "E07000125")
 ax.annotate(N["top_name"], xy=(x, y), xytext=(500, 560), family=MONO, fontsize=6, color=FG, ha="left", va="center",
