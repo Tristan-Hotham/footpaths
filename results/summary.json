@@ -1,0 +1,658 @@
+{
+ "osm_snapshot": "2026-07-27",
+ "rowmaps_authorities": 149,
+ "rowmaps_sections": 537075,
+ "rowmaps_duplicates_removed": 4233,
+ "ew_councils": 318,
+ "ew_council_source": 293,
+ "ew_osm_source": 10,
+ "ew_prow_mi": 139408.7,
+ "ew_osm_mi": 79896.2,
+ "ew_osm_share_of_council": 0.573,
+ "ew_prow_per_sqmi": 2.396,
+ "ew_median_per_sqmi": 2.334,
+ "ew_footpath_share": 0.765,
+ "nations": {
+  "England": {
+   "councils": 296,
+   "area_sqmi": 50195.1,
+   "pop": 58834812,
+   "prow_mi": 116939.3,
+   "osm_prow_mi": 75177.2,
+   "core_mi": 0.0,
+   "offroad_mi": 191193.5,
+   "road_mi": 205255.4,
+   "prow_per_sqmi": 2.33,
+   "offroad_per_sqmi": 3.809,
+   "core_per_sqmi": 0.0
+  },
+  "Northern Ireland": {
+   "councils": 11,
+   "area_sqmi": 5501.2,
+   "pop": 1928446,
+   "prow_mi": 103.1,
+   "osm_prow_mi": 103.1,
+   "core_mi": 0.0,
+   "offroad_mi": 6316.5,
+   "road_mi": 17028.6,
+   "prow_per_sqmi": 0.019,
+   "offroad_per_sqmi": 1.148,
+   "core_per_sqmi": 0.0
+  },
+  "Scotland": {
+   "councils": 32,
+   "area_sqmi": 30278.3,
+   "pop": 5545500,
+   "prow_mi": 18.0,
+   "osm_prow_mi": 18.0,
+   "core_mi": 676.9,
+   "offroad_mi": 54647.4,
+   "road_mi": 38847.1,
+   "prow_per_sqmi": 0.001,
+   "offroad_per_sqmi": 1.805,
+   "core_per_sqmi": 0.022
+  },
+  "Wales": {
+   "councils": 22,
+   "area_sqmi": 7995.7,
+   "pop": 3175181,
+   "prow_mi": 22469.4,
+   "osm_prow_mi": 4719.1,
+   "core_mi": 0.0,
+   "offroad_mi": 21543.4,
+   "road_mi": 21988.9,
+   "prow_per_sqmi": 2.81,
+   "offroad_per_sqmi": 2.694,
+   "core_per_sqmi": 0.0
+  }
+ },
+ "top_sqmi": [
+  {
+   "name": "Rossendale",
+   "code": "E07000125",
+   "value": 7.656,
+   "source": "council"
+  },
+  {
+   "name": "Calderdale",
+   "code": "E08000033",
+   "value": 6.164,
+   "source": "council"
+  },
+  {
+   "name": "Pendle",
+   "code": "E07000122",
+   "value": 5.91,
+   "source": "council"
+  },
+  {
+   "name": "Rochdale",
+   "code": "E08000005",
+   "value": 5.473,
+   "source": "council"
+  },
+  {
+   "name": "Blackburn with Darwen",
+   "code": "E06000008",
+   "value": 5.421,
+   "source": "council"
+  },
+  {
+   "name": "Malvern Hills",
+   "code": "E07000235",
+   "value": 5.306,
+   "source": "council"
+  },
+  {
+   "name": "Oldham",
+   "code": "E08000004",
+   "value": 5.187,
+   "source": "council"
+  },
+  {
+   "name": "Hyndburn",
+   "code": "E07000120",
+   "value": 5.181,
+   "source": "council"
+  },
+  {
+   "name": "Burnley",
+   "code": "E07000117",
+   "value": 5.096,
+   "source": "council"
+  },
+  {
+   "name": "Bury",
+   "code": "E08000002",
+   "value": 5.091,
+   "source": "council"
+  },
+  {
+   "name": "Monmouthshire",
+   "code": "W06000021",
+   "value": 4.993,
+   "source": "council"
+  },
+  {
+   "name": "Stroud",
+   "code": "E07000082",
+   "value": 4.871,
+   "source": "council"
+  },
+  {
+   "name": "Blaenau Gwent",
+   "code": "W06000019",
+   "value": 4.833,
+   "source": "council"
+  },
+  {
+   "name": "Caerphilly",
+   "code": "W06000018",
+   "value": 4.645,
+   "source": "council"
+  },
+  {
+   "name": "Hastings",
+   "code": "E07000062",
+   "value": 4.552,
+   "source": "council"
+  },
+  {
+   "name": "Amber Valley",
+   "code": "E07000032",
+   "value": 4.551,
+   "source": "council"
+  },
+  {
+   "name": "Torfaen",
+   "code": "W06000020",
+   "value": 4.495,
+   "source": "council"
+  },
+  {
+   "name": "Mole Valley",
+   "code": "E07000210",
+   "value": 4.275,
+   "source": "council"
+  },
+  {
+   "name": "Bolton",
+   "code": "E08000001",
+   "value": 4.254,
+   "source": "council"
+  },
+  {
+   "name": "Flintshire",
+   "code": "W06000005",
+   "value": 4.238,
+   "source": "council"
+  }
+ ],
+ "bottom_sqmi_outside_inner_london": [
+  {
+   "name": "Harrow",
+   "code": "E09000015",
+   "value": 0.063,
+   "source": "council"
+  },
+  {
+   "name": "Enfield",
+   "code": "E09000010",
+   "value": 0.109,
+   "source": "osm"
+  },
+  {
+   "name": "Norwich",
+   "code": "E07000148",
+   "value": 0.158,
+   "source": "council"
+  },
+  {
+   "name": "Havering",
+   "code": "E09000016",
+   "value": 0.161,
+   "source": "osm"
+  },
+  {
+   "name": "Barnet",
+   "code": "E09000003",
+   "value": 0.181,
+   "source": "osm"
+  },
+  {
+   "name": "Brent",
+   "code": "E09000005",
+   "value": 0.182,
+   "source": "osm"
+  },
+  {
+   "name": "Luton",
+   "code": "E06000032",
+   "value": 0.193,
+   "source": "council"
+  },
+  {
+   "name": "Southend-on-Sea",
+   "code": "E06000033",
+   "value": 0.193,
+   "source": "council"
+  },
+  {
+   "name": "Stoke-on-Trent",
+   "code": "E06000021",
+   "value": 0.235,
+   "source": "osm"
+  },
+  {
+   "name": "Liverpool",
+   "code": "E08000012",
+   "value": 0.28,
+   "source": "council"
+  }
+ ],
+ "top_road": [
+  {
+   "name": "Powys",
+   "code": "W06000023",
+   "value": 3387.685,
+   "source": "council"
+  },
+  {
+   "name": "Malvern Hills",
+   "code": "E07000235",
+   "value": 3000.438,
+   "source": "council"
+  },
+  {
+   "name": "Rossendale",
+   "code": "E07000125",
+   "value": 2927.336,
+   "source": "council"
+  },
+  {
+   "name": "Ribble Valley",
+   "code": "E07000124",
+   "value": 2869.098,
+   "source": "council"
+  },
+  {
+   "name": "Monmouthshire",
+   "code": "W06000021",
+   "value": 2641.523,
+   "source": "council"
+  },
+  {
+   "name": "Gwynedd",
+   "code": "W06000002",
+   "value": 2438.053,
+   "source": "council"
+  },
+  {
+   "name": "Pendle",
+   "code": "E07000122",
+   "value": 2334.892,
+   "source": "council"
+  },
+  {
+   "name": "High Peak",
+   "code": "E07000037",
+   "value": 2332.213,
+   "source": "council"
+  },
+  {
+   "name": "Derbyshire Dales",
+   "code": "E07000035",
+   "value": 2249.323,
+   "source": "council"
+  },
+  {
+   "name": "Staffordshire Moorlands",
+   "code": "E07000198",
+   "value": 2213.056,
+   "source": "council"
+  }
+ ],
+ "top_head": [
+  {
+   "name": "Powys",
+   "code": "W06000023",
+   "value": 248.704,
+   "source": "council"
+  },
+  {
+   "name": "Ceredigion",
+   "code": "W06000008",
+   "value": 114.536,
+   "source": "council"
+  },
+  {
+   "name": "Gwynedd",
+   "code": "W06000002",
+   "value": 104.196,
+   "source": "council"
+  },
+  {
+   "name": "Monmouthshire",
+   "code": "W06000021",
+   "value": 90.517,
+   "source": "council"
+  },
+  {
+   "name": "Derbyshire Dales",
+   "code": "E07000035",
+   "value": 77.171,
+   "source": "council"
+  },
+  {
+   "name": "Malvern Hills",
+   "code": "E07000235",
+   "value": 73.747,
+   "source": "council"
+  },
+  {
+   "name": "Westmorland and Furness",
+   "code": "E06000064",
+   "value": 66.056,
+   "source": "council"
+  },
+  {
+   "name": "Herefordshire, County of",
+   "code": "E06000019",
+   "value": 60.105,
+   "source": "council"
+  },
+  {
+   "name": "Pembrokeshire",
+   "code": "W06000009",
+   "value": 59.647,
+   "source": "council"
+  },
+  {
+   "name": "Ribble Valley",
+   "code": "E07000124",
+   "value": 59.54,
+   "source": "council"
+  }
+ ],
+ "top_bridle_share": [
+  {
+   "name": "Brighton and Hove",
+   "code": "E06000043",
+   "value": 0.61,
+   "source": "council"
+  },
+  {
+   "name": "King's Lynn and West Norfolk",
+   "code": "E07000146",
+   "value": 0.484,
+   "source": "council"
+  },
+  {
+   "name": "Mansfield",
+   "code": "E07000174",
+   "value": 0.46,
+   "source": "council"
+  },
+  {
+   "name": "Eastbourne",
+   "code": "E07000061",
+   "value": 0.446,
+   "source": "council"
+  },
+  {
+   "name": "Waverley",
+   "code": "E07000216",
+   "value": 0.446,
+   "source": "council"
+  },
+  {
+   "name": "West Devon",
+   "code": "E07000047",
+   "value": 0.443,
+   "source": "council"
+  },
+  {
+   "name": "Cannock Chase",
+   "code": "E07000192",
+   "value": 0.435,
+   "source": "council"
+  },
+  {
+   "name": "Merthyr Tydfil",
+   "code": "W06000024",
+   "value": 0.432,
+   "source": "council"
+  },
+  {
+   "name": "Wiltshire",
+   "code": "E06000054",
+   "value": 0.416,
+   "source": "council"
+  },
+  {
+   "name": "Guildford",
+   "code": "E07000209",
+   "value": 0.413,
+   "source": "council"
+  }
+ ],
+ "top_offroad_uk": [
+  {
+   "name": "City of London",
+   "code": "E09000001",
+   "value": 26.75,
+   "source": "inner_london"
+  },
+  {
+   "name": "Crawley",
+   "code": "E07000226",
+   "value": 20.639,
+   "source": "council"
+  },
+  {
+   "name": "Tower Hamlets",
+   "code": "E09000030",
+   "value": 18.957,
+   "source": "inner_london"
+  },
+  {
+   "name": "Harlow",
+   "code": "E07000073",
+   "value": 17.668,
+   "source": "council"
+  },
+  {
+   "name": "Stevenage",
+   "code": "E07000243",
+   "value": 16.804,
+   "source": "council"
+  },
+  {
+   "name": "Richmond upon Thames",
+   "code": "E09000027",
+   "value": 16.45,
+   "source": "osm"
+  },
+  {
+   "name": "Isles of Scilly",
+   "code": "E06000053",
+   "value": 15.446,
+   "source": "none"
+  },
+  {
+   "name": "Norwich",
+   "code": "E07000148",
+   "value": 14.693,
+   "source": "council"
+  },
+  {
+   "name": "Camden",
+   "code": "E09000007",
+   "value": 14.42,
+   "source": "inner_london"
+  },
+  {
+   "name": "Westminster",
+   "code": "E09000033",
+   "value": 14.344,
+   "source": "inner_london"
+  }
+ ],
+ "top_core_scotland": [
+  {
+   "name": "Dundee City",
+   "code": "S12000042",
+   "value": 0.955,
+   "source": ""
+  },
+  {
+   "name": "Shetland Islands",
+   "code": "S12000027",
+   "value": 0.482,
+   "source": ""
+  },
+  {
+   "name": "Fife",
+   "code": "S12000047",
+   "value": 0.415,
+   "source": ""
+  },
+  {
+   "name": "Perth and Kinross",
+   "code": "S12000048",
+   "value": 0.039,
+   "source": ""
+  },
+  {
+   "name": "Angus",
+   "code": "S12000041",
+   "value": 0.03,
+   "source": ""
+  },
+  {
+   "name": "City of Edinburgh",
+   "code": "S12000036",
+   "value": 0.026,
+   "source": ""
+  },
+  {
+   "name": "West Lothian",
+   "code": "S12000040",
+   "value": 0.025,
+   "source": ""
+  },
+  {
+   "name": "East Lothian",
+   "code": "S12000010",
+   "value": 0.024,
+   "source": ""
+  },
+  {
+   "name": "Stirling",
+   "code": "S12000030",
+   "value": 0.007,
+   "source": ""
+  },
+  {
+   "name": "Dumfries and Galloway",
+   "code": "S12000006",
+   "value": 0.004,
+   "source": ""
+  }
+ ],
+ "worst_osm_cover": [
+  {
+   "name": "Sandwell",
+   "code": "E08000028",
+   "value": 0.002,
+   "source": "council"
+  },
+  {
+   "name": "Leicester",
+   "code": "E06000016",
+   "value": 0.005,
+   "source": "council"
+  },
+  {
+   "name": "Ealing",
+   "code": "E09000009",
+   "value": 0.009,
+   "source": "council"
+  },
+  {
+   "name": "Walsall",
+   "code": "E08000030",
+   "value": 0.017,
+   "source": "council"
+  },
+  {
+   "name": "Torfaen",
+   "code": "W06000020",
+   "value": 0.024,
+   "source": "council"
+  },
+  {
+   "name": "Bolton",
+   "code": "E08000001",
+   "value": 0.029,
+   "source": "council"
+  },
+  {
+   "name": "St. Helens",
+   "code": "E08000013",
+   "value": 0.034,
+   "source": "council"
+  },
+  {
+   "name": "Neath Port Talbot",
+   "code": "W06000012",
+   "value": 0.044,
+   "source": "council"
+  },
+  {
+   "name": "Blaenau Gwent",
+   "code": "W06000019",
+   "value": 0.049,
+   "source": "council"
+  },
+  {
+   "name": "Salford",
+   "code": "E08000006",
+   "value": 0.05,
+   "source": "council"
+  }
+ ],
+ "ribble_valley": {
+  "name": "Ribble Valley",
+  "area_sqmi": 224.86,
+  "pop": 66938.0,
+  "prow_mi": 754.831,
+  "footpath_mi": 664.406,
+  "off_bridleway_mi": 89.396,
+  "prow_per_sqmi": 3.357,
+  "prow_yd_per_road_mi": 2869.098,
+  "prow_ft_per_head": 59.54,
+  "rank_sqmi": 64.0,
+  "rank_road": 4.0,
+  "rank_head": 10.0,
+  "osm_mi": 762.975,
+  "offroad_per_sqmi": 3.647,
+  "source": "council"
+ },
+ "rv_osm_mi_by_year": {
+  "2016": 27.2,
+  "2018": 36.3,
+  "2020": 197.3,
+  "2022": 762.0,
+  "2024": 762.3,
+  "2026": 763.0
+ },
+ "ew_osm_mi_by_year": {
+  "2016": 28274.9,
+  "2018": 35786.0,
+  "2020": 48338.0,
+  "2022": 62006.9,
+  "2024": 73639.4,
+  "2026": 79896.2
+ }
+}
